@@ -25,3 +25,8 @@ git push -u origin develop-readme-instructions => -u is the shorthand for --set-
 9) After performing the above steps, you need to create pull request from the feature branch to your main/master branch
 10) git branch -d <feature branch name>  => Once done, you will need to delete the feature branch using this command. Because we don't normally use a feature branch once a pull req has been created
 11) git pull origin master => This command will fetch the changes merged to master using the PR and will update the local master branch
+
+
+
+Yo my bwoi.. which line is it going to pick?
+this one or that one?
