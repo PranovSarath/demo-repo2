@@ -28,5 +28,10 @@ git push -u origin develop-readme-instructions => -u is the shorthand for --set-
 
 
 
+<<<<<<< HEAD
 Added new commands
 git commit -am "<Commit Message>"   => This command will add and commit the changes with the message. It only works for modified files and does not work for newly created ones
+=======
+Yo my bwoi.. which line is it going to pick?
+this one or that one?
+>>>>>>> master
