@@ -15,3 +15,4 @@ Tips:
 
 git branch => to see the branches in the repo
 git checkout -b <name of the new branch>   => checkout is used to switch btw branches and -b is used to create a new branch. naming convention is upto you.
+git diff <branch name>  => will display the changes between your current branch and the one you specified in the command. press enter to go line by line and press q to exit.
