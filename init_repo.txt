@@ -28,6 +28,5 @@ git push -u origin develop-readme-instructions => -u is the shorthand for --set-
 
 
 
-
-****Sample change****
-12) git commit -am "<Message>"   => This commit will add and commit the changes. This only works for modified files and does not work for newly created files
+Added new commands
+git commit -am "<Commit Message>"   => This command will add and commit the changes with the message. It only works for modified files and does not work for newly created ones
