@@ -53,3 +53,5 @@ In case you committed a change and you want to undo this, use the following comm
 15) git reset ecb1662953a463c425ee1cc16427e483cb881f09 => Unstaged all changes part of this commit
 or
 git reset --hard ecb1662953a463c425ee1cc16427e483cb881f09 => All changes part of this commit will be unstaged and also removed
+
+16) git revert <commit name>  - To revert a commit in Git
