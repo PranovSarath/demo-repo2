@@ -9,3 +9,14 @@ To Create a repo locally
 7) git remote add origin "<Paste the link you get from GitHub new repo page>"     => To push the changes to the online repository. 
 8) git push -u origin master  => Pushes the changes to the repo. -u specifies the upstream. This will be the branch that we push to by default.so we dont have to write master each time
 
+
+
+Tips:
+
+git branch => to see the branches in the repo
+git checkout -b <name of the new branch>   => checkout is used to switch btw branches and -b is used to create a new branch. naming convention is upto you.
+git diff <branch name>  => will display the changes between your current branch and the one you specified in the command. press enter to go line by line and press q to exit.
+
+git push --set-upstream origin develop-readme-instructions  => To push the changes to the remote repository
+or 
+git push -u origin develop-readme-instructions => -u is the shorthand for --set-upstream. It is the same thing.
