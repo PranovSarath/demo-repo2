@@ -9,3 +9,14 @@ git commit -m "<message to be added for the commit>"  -m "<description>" => This
 git push 
 
 ssh-keygen -t rsa -b 4096 -C "pranov03@gmail.com" - To generate an ssh key to connect to the remote repository. i.e. GitHub
+OR
+ssh-keygen -t ed25519 -C "pranov03@gmail.com"
+
+It will generate a public/private ed25519 key pair
+It will prompt for a filename and also ask you to enter a passphrase. Keep it blank
+
+
+eval "%(ssh-agent -s)"  => To start a new ssh agent
+ssh-add ~/.ssh/id_25519 
+
+git push origin master   => Push the committed git changes to the online git repository

@@ -1,0 +1,11 @@
+To Create a repo locally
+
+1) Create a new folder for your project and add your files
+2) git init     => To initialize a new repository
+3) git status   => To see untracked/tracked changes
+4) git add .     => To track changes of all files
+5) git commit -m "<Title message>" -m "<description text>"    -> To commit the changes to the repo
+6) Create a new empty repository in GitHub
+7) git remote add origin "<Paste the link you get from GitHub new repo page>"     => To push the changes to the online repository. 
+8) git push -u origin master  => Pushes the changes to the repo. -u specifies the upstream. This will be the branch that we push to by default.so we dont have to write master each time
+
