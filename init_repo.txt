@@ -32,8 +32,6 @@ git push -u origin develop-readme-instructions => -u is the shorthand for --set-
 Added new commands
 git commit -am "<Commit Message>"   => This command will add and commit the changes with the message. It only works for modified files and does not work for newly created ones
 
-Yo my bwoi.. which line is it going to pick?
-this one or that one?
 
 git merge master => from your feature branch, use this command once local master is updated from remote master. This will merge the changes with your feature branch   
                     and will let you know if there are any merge conflicts and you can choose to resolve them
