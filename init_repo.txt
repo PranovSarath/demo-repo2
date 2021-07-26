@@ -41,3 +41,15 @@ git commit -am "message" =>to add and commit the merged changes
 
 
 
+
+If you added a new to staging using git add <filename> or git add ., then you can use the below command to undo the staging.
+12) git reset <filename>  => Filename is only an optional parameter
+
+In case you committed a change and you want to undo this, use the following command:
+13) git reset HEAD~1    => Head is a pointer to the last commit and 1 indicates to point to 1 commit before HEAD. This will unstage and uncommit the changes
+
+14) git log => Gives you a log of all the commits arranged in reverse chronological order. You can use the hash to roll back the previous commit
+
+15) git reset ecb1662953a463c425ee1cc16427e483cb881f09 => Unstaged all changes part of this commit
+or
+git reset --hard ecb1662953a463c425ee1cc16427e483cb881f09 => All changes part of this commit will be unstaged and also removed
