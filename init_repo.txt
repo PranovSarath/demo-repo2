@@ -55,3 +55,5 @@ or
 git reset --hard ecb1662953a463c425ee1cc16427e483cb881f09 => All changes part of this commit will be unstaged and also removed
 
 16) git revert <commit name>  - To revert a commit in Git
+
+git pull = git fetch +  git merge
