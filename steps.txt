@@ -1,0 +1,11 @@
+git clone <repo URL>
+
+git status => To show the status of the files. list if any files have been updated,created, if they're being tracked etc.
+
+git add . => To track all files from now on
+
+git commit -m "<message to be added for the commit>"  -m "<description>" => This is to finally save the changes to git. -m is to add the message. First message goes to commit message and second becomes the description
+
+git push 
+
+ssh-keygen -t rsa -b 4096 -C "pranov03@gmail.com" - To generate an ssh key to connect to the remote repository. i.e. GitHub
